@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
-    paddingVertical: 20,
+    paddingVertical: 30,
   },
   input: {
     borderBottomWidth: 1,

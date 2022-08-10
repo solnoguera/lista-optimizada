@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   modal: {
     flex: 1,
-    margin: 30,
-    paddingTop: 80,
+    marginHorizontal: 20,
+    marginVertical: 150,
   },
   modalContentContainer: {
     paddingVertical: 10,

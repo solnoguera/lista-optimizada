@@ -52,8 +52,8 @@ export default function App() {
         <CustomModal
           animationType="slide"
           modalVisible={modalVisible}
-          title="Detalle de la lista"
-          message="¿Estás seguro que deseas eliminar?"
+          title="Confirmation"
+          message="¿Are you sure you want to delete this item?"
           itemValue={selectedItem.value}
           onDelete={() => onDeleteItem(selectedItem.id)}
           onCancel={() => setModalVisible(!modalVisible)}
